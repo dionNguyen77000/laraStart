@@ -68,6 +68,7 @@ const router = new VueRouter({
     return moment(created).format('MMMM DD YYYY');
   });
 
+  window.Fire = new Vue();
 
 
 /**
